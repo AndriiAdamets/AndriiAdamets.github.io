@@ -39,5 +39,4 @@ if (process.env.npm_lifecycle_event === 'start') {
   }));
 }
 
-
 module.exports = validate(config);

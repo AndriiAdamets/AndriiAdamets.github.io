@@ -3,8 +3,8 @@ module.exports = function() {
     module: {
       loaders: [
         {
-          test: '*.pug$',
-          loader: 'pug'
+          test: /\.pug$/,
+          loader: 'jade'
         }
       ]
     }

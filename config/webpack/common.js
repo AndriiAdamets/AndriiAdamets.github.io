@@ -11,6 +11,7 @@ module.exports = function(paths) {
     plugins: [
       new HtmlWebpackPlugin({
         template: paths.mainTemplate,
+        title: 'Andrii Adamets - Frontend dude',
         filename: 'index.html'
       })
     ],
